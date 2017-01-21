@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+  <nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="javascript:void(0)">回拨电话</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="recharge.html">充值</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+</div>
+<div class="content">
+  <h3>登录</h3>
+  <div class="form-horizontal" role="form">
+    <div class="form-group">
+      <label  class="col-sm-2 control-label">手机号</label>
+      <div class="col-sm-7">
+        <input type="email" class="form-control" id="phoneNum" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-sm-2 control-label">验证码</label>
+      <div class="col-sm-4">
+        <input type="password" class="form-control" id="key" placeholder="Password">
+      </div>
+      <div class="col-sm-4">
+        <button type="button" id="keyBtn" class="btn btn-default">获取验证码</button>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="button" id="loginBtn" class="btn btn-info">登录</button>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+<script src="JS/jquery-1.11.3.js"></script>
+<script src="JS/common.js"></script>
+<script src="JS/login.js"></script>
+</html>
